@@ -1,7 +1,7 @@
 # Linear-Regression-Model-Selection
 
 ## Summary:
-Using R, I minimized Mallows' Cp values and predicted residual error sum of squares (PRESS) to improve the linear regression model's predictive ability for fuel efficiency (miles per gallon) in USA, Japan, and Germany. Both Least angle regression (Lars) and the branch-and-bound algorithm (leaps) aims at finding the best subset of predictors. 
+Using R, I minimized Mallows' Cp values and predicted residual error sum of squares (PRESS) to improve the linear regression model's predictive ability for fuel efficiency (miles per gallon) in USA, Japan, and Germany. Both Least angle regression (Lars) and the branch-and-bound algorithm (leaps) aims at finding the best subset of predictors. The project explores how these iterative methodologies compare in predicting the response variable of mpg. The following plots the predictions (x) against the true value (y). 
 
 <img width="282" height="394" alt="Screen Shot 2025-10-06 at 5 09 06 AM" src="https://github.com/user-attachments/assets/fd639dfc-3d45-4e40-b7ac-13d4d39c2e28" />
 
