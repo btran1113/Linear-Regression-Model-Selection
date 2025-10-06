@@ -152,3 +152,10 @@ x.auto2<-Auto.mat.germany2
 y.auto<-Auto.mat.usa[,1]
 x.auto2<-Auto.mat.usa2
 ```
+
+```r
+#Calculates average mpg for each country of origin (1 = American, 2 = German, 3 = Japanese)
+sum(Auto$mpg[Auto$origin == 1])/sum(Auto$origin == 1)
+sum(Auto$mpg[Auto$origin == 2])/sum(Auto$origin == 2)
+sum(Auto$mpg[Auto$origin == 3])/sum(Auto$origin == 3)
+```
